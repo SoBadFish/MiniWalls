@@ -1,0 +1,15 @@
+name: MiniWall
+main: org.sobadfish.miniwalls.MiniWallMain
+version: 1.0.0
+api:
+  - 1.0.11
+  - 3.0.0
+author: sobadfish
+load: POSTWORLD
+description: "迷你战墙小游戏插件"
+
+softdepend:
+  - ScoreboardPlugin
+
+loadbefore:
+  - ScoreboardPlugin

@@ -1,7 +1,6 @@
 package org.sobadfish.miniwalls;
 
 import cn.nukkit.Player;
-import cn.nukkit.level.Level;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.TextFormat;
 import org.sobadfish.miniwalls.manager.RoomManager;
@@ -25,11 +24,11 @@ public class MiniWallMain extends PluginBase {
     public void onEnable() {
         miniWallMain = this;
         checkServer();
-        this.getLogger().info(TextFormat.colorize('&',"&b __  __ _      ___      __    _ _"));
-        this.getLogger().info(TextFormat.colorize('&',"&b|  \\/  (_)_ _ (_) \\    / /_ _| | |"));
-        this.getLogger().info(TextFormat.colorize('&',"&b| |\\/| | | ' \\| |\\ \\/\\/ / _` | | |"));
-        this.getLogger().info(TextFormat.colorize('&',"&b|_|  |_|_|_||_|_| \\_/\\_/\\__,_|_|_|"));
-        this.getLogger().info(TextFormat.colorize('&',"&b"));
+        this.getLogger().info(TextFormat.colorize('&',"&e __  __ _      ___      __    _ _"));
+        this.getLogger().info(TextFormat.colorize('&',"&e|  \\/  (_)_ _ (_) \\    / /_ _| | |"));
+        this.getLogger().info(TextFormat.colorize('&',"&e| |\\/| | | ' \\| |\\ \\/\\/ / _` | | |"));
+        this.getLogger().info(TextFormat.colorize('&',"&e|_|  |_|_|_||_|_| \\_/\\_/\\__,_|_|_|"));
+        this.getLogger().info(TextFormat.colorize('&',"&e"));
         this.getLogger().info(TextFormat.colorize('&',"&e正在加载MiniWall 迷你战墙插件 本版本为&av"+this.getDescription().getVersion()));
         this.getLogger().info(TextFormat.colorize('&',"&c插件作者:&b sobadfish(某吃瓜咸鱼) &aQQ：&e1586235767"));
         this.getLogger().info(TextFormat.colorize('&',"&c本插件为原创插件 部分源代码出处已标明原作者"));

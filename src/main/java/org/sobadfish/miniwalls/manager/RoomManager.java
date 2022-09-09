@@ -13,7 +13,7 @@ import java.util.Map;
  */
 public class RoomManager {
 
-    public Map<String, GameRoomConfig> roomConfig = new LinkedHashMap<>();
+    public Map<String, GameRoomConfig> roomConfig;
 
 
     private RoomManager(Map<String, GameRoomConfig> roomConfig){

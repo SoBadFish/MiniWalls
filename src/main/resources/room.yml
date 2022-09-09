@@ -1,0 +1,29 @@
+# 地图名称
+world: ""
+# 游戏时长
+gameTime: 1200
+# 等待时间 （秒）
+waitTime: 60
+# UI界面
+ui: auto
+# 满人等待时长
+max-player-waitTime: 20
+# 房间最少玩家
+minPlayerSize: 2
+# 房间最大玩家
+maxPlayerSize: 16
+# 等待大厅位置
+waitPosition: ""
+# 禁用指令
+ban-command: []
+# 队伍出生点
+teamSpawn: {}
+
+roomStartMessage:
+  - "&a■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■"
+  - "&f起床战争"
+  - "&e"
+  - "&e保护你的床并摧毁敌人的床。收集铜锭，金锭，钻石和绿宝石"
+  - "&e来升级，使自身和队伍变得更强"
+  - "&a■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■"
+

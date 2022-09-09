@@ -1,0 +1,15 @@
+title: "&f[&a迷你战墙&f]"
+
+scoreboard-title: "&f&a迷你战墙&f"
+
+# 是否保存玩家背包
+save-playerInventory:  true
+
+# 商店界面
+# auto 自动适配
+# packet 强制GUI菜单
+# ui 强制箱子界面
+shop-ui: auto
+
+
+game-logo: "&l&cM&6i&en&ai&bW&9a&dll"

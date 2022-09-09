@@ -9,8 +9,6 @@ import java.io.File;
 public class GameRoomConfig {
 
     public String name;
-
-
     /**
      * 地图配置
      * */
@@ -18,6 +16,7 @@ public class GameRoomConfig {
 
     public static GameRoomConfig getGameRoomConfigByFile(String roomName, File nameFile) {
         //TODO 构建房间配置逻辑
+
        return null;
 
     }
