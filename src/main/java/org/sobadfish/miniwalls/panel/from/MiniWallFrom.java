@@ -42,7 +42,7 @@ public class MiniWallFrom {
 
     public void disPlay(Player player){
         FormWindowSimple simple = new FormWindowSimple(TextFormat.colorize('&',title),TextFormat.colorize('&', context));
-        for(BaseIButtom baseIButtom: baseIButtoms){
+        for(BaseIButtom baseIButtom : baseIButtoms){
             simple.addButton(baseIButtom.getButton());
         }
         player.showFormWindow(simple, getId());

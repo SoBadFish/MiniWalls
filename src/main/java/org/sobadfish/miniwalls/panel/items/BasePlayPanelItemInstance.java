@@ -4,16 +4,15 @@ import cn.nukkit.Player;
 import cn.nukkit.form.element.ElementButton;
 import cn.nukkit.item.Item;
 import org.sobadfish.miniwalls.panel.ChestInventoryPanel;
+import org.sobadfish.miniwalls.panel.from.MiniWallFrom;
 import org.sobadfish.miniwalls.player.PlayerInfo;
 
-
 /**
- * @author SoBadFish
- * 2022/1/2
+ * @author Sobadfish
+ * @date 2022/9/9
  */
 public abstract class BasePlayPanelItemInstance {
 
-    
     /**
      * 消费数量
      * @return 数量
@@ -36,13 +35,13 @@ public abstract class BasePlayPanelItemInstance {
      * 当玩家触发GUI的button
      *
      * @param player 玩家
-     * @param shopFrom 商店GUI
+     * @param from 按键GUI
      *
      * */
-    public abstract void onClickButton(Player player, ShopFrom shopFrom);
+    public abstract void onClickButton(Player player, MiniWallFrom from);
 
     /**
-     * 展示物品
+     * 箱子菜单展示物品
      * @param index 位置
      * @param info 玩家信息
      * @return 物品

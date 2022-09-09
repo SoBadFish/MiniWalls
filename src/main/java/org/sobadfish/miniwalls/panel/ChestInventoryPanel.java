@@ -7,9 +7,10 @@ import cn.nukkit.inventory.InventoryType;
 import cn.nukkit.item.Item;
 import cn.nukkit.network.protocol.ContainerOpenPacket;
 import cn.nukkit.network.protocol.RemoveEntityPacket;
-import org.sobadfish.bedwar.panel.items.BasePlayPanelItemInstance;
-import org.sobadfish.bedwar.panel.lib.DoubleChestFakeInventory;
-import org.sobadfish.bedwar.player.PlayerInfo;
+import org.sobadfish.miniwalls.panel.items.BasePlayPanelItemInstance;
+import org.sobadfish.miniwalls.panel.lib.DoubleChestFakeInventory;
+import org.sobadfish.miniwalls.player.PlayerInfo;
+
 
 import java.util.LinkedHashMap;
 import java.util.Map;
